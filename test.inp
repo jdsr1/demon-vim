@@ -1,25 +1,30 @@
-TITLE LRE NUMERIC TEST 22
-# this is a comment
+TITLE LRE NUMERIC TEST grid fine 22
+#
 # TODO: make note 
+#
 GUESS CORE
 QUADRATURE NORANDOM REFERENCE
 GRID FIXED REFERENCE
-SCFTYPE MAX=1
+print max=9 tol=
+rdf rdf
 ORBITALS CARTESIAN
-VXCTYP BASIS auxis
+trajectory cut<
+VXCTYP BASIS bh&h
 BASIS (AUG-CC-PVDZ)
+auxis (gen-a2*) auxis
 FORCEFIELD FF=OPLS-AA
+#
 QM/MM NOPOLES
 C1  3
 H1  1
 C2  2
-O1    3
+O1  3
 #
-C reAD
+C READ
 asdsds
 adsad
 #
-GEOMETRY CARTESIAN ANGSTROM
+GEOMETRY z-matrix CARTESIAN ANGSTROM
 C1       -1.174224      -0.886052      -0.707340
 H1       -0.114279      -1.450530       2.537737
 O1       -3.024943       0.513648       1.654732
