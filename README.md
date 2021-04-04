@@ -1,6 +1,8 @@
 # Vim plugin for [deMon](http://www.demon-software.com/public_html/index.html)
-## E X P E R I M E N T A L
-***
+
+Experimental stage.
+
+Syntax highlightning offers some functionality.
 
 `/syntax/deMon.vim` contains the keywords/options definitions to highlight 
 *.inp or *.new files. These file terminations are defined in 
@@ -8,4 +10,5 @@
 
 TODO: 
 
-- add the rest of the deMon keywords.
+- add the rest of the deMon options.
+- add installation instructions.
