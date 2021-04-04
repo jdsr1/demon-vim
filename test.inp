@@ -1,0 +1,36 @@
+TITLE LRE NUMERIC TEST 22
+# this is a comment
+# TODO: make note 
+GUESS CORE
+QUADRATURE NORANDOM REFERENCE
+GRID FIXED REFERENCE
+SCFTYPE MAX=1
+ORBITALS CARTESIAN
+VXCTYP BASIS auxis
+BASIS (AUG-CC-PVDZ)
+FORCEFIELD FF=OPLS-AA
+QM/MM NOPOLES
+C1  3
+H1  1
+C2  2
+O1    3
+#
+C reAD
+asdsds
+adsad
+#
+GEOMETRY CARTESIAN ANGSTROM
+C1       -1.174224      -0.886052      -0.707340
+H1       -0.114279      -1.450530       2.537737
+O1       -3.024943       0.513648       1.654732
+CR        0.684520      -0.054223       0.000264
+C2        0.654829       1.274204      -1.300157
+O1        0.645481       2.089523      -2.099151
+C2        2.528486       0.096062      -0.000666
+O1        3.669894       0.172879      -0.001810
+C2        0.654395       1.276953       1.297871
+O1        0.644109       2.093480       2.095617
+HX       -5.645974       3.843537       0.279894  -57
+HX        2.130977      -2.727717       4.740014  -57
+HX       -1.311382      -0.172418       5.079799  -57
+HX        3.468696      -2.324879      -4.532333  -57
