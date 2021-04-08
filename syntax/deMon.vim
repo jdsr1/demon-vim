@@ -231,7 +231,7 @@ syn region dOption start=/(/ms=e+1 end=/)/me=e-1
 
 
 " Comments including todos:
-syn match dTodo contained /\(TODO\|NOTE\)?:/
+syn match dTodo contained /\(TODO\|NOTE\|XXX\):*/
 syn match dComment /#.*/ contains=dTodo
 
 
